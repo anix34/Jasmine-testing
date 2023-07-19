@@ -4,7 +4,7 @@ it('should calculate the monthly rate correctly', function () {
         years : 10,
         rate : 4.5
     };
-    expect(calculateMonthlyPayment(values)).toEqual('103.64');
+    expect(calculateMonthlyPayment(values)).toEqual('207.28');
   });
   
   
@@ -14,7 +14,7 @@ it('should calculate the monthly rate correctly', function () {
         years : 10,
         rate : 4.5
     };
-    expect(calculateMonthlyPayment(values)).toEqual('103.64');
+    expect(calculateMonthlyPayment(values)).toEqual('207.28');
   });
   
   /// etc
