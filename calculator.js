@@ -23,7 +23,7 @@ window.addEventListener('DOMContentLoaded', function() {
 
   function setupIntialValues() {
     const values = {
-      amount : 10000,
+      amount : 20000,
       years: 10,
       rate: 4.5
     };
